@@ -1,12 +1,55 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# HelpMate
 
-Currently, two official plugins are available:
+The HelpMate frontend is a modern single-page application built with React + Vite, designed to be fast, responsive, and user-friendly.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Documentation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[Tailwind CSS](https://tailwindcss.com/docs/installation/using-vite)
+
+[GSAP](https://gsap.com/docs/v3/)
+
+[Lucide Icons](https://lucide.dev/guide/installation)
+
+[React Router DOM](https://reactrouter.com/home)
+
+[Axios](https://axios-http.com/docs/intro)
+
+[Tanstack React Query](https://tanstack.com/query/latest/docs/framework/react/overview)
+
+[React Hook Form](https://react-hook-form.com/docs)
+
+[JWT Decode](https://www.jwt.io/introduction#what-is-json-web-token)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Jevan27/help-mate-fe.git
+```
+
+Go to the project directory
+
+```bash
+  cd help-mate-fe
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Author
+
+- [@Jevan27](https://github.com/Jevan27)
+
