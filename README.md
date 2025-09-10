@@ -22,6 +22,9 @@ The HelpMate frontend is a modern single-page application built with React + Vit
 
 [JWT Decode](https://www.jwt.io/introduction#what-is-json-web-token)
 
+[Shadcn](https://ui.shadcn.com/docs)
+
+
 ## Run Locally
 
 Clone the project
