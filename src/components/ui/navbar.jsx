@@ -33,19 +33,21 @@
 
     useGSAP(()=>{
       gsap.fromTo('#logo',{
-        x:-100,
-        autoAlpha: 0
+        x: -180,
+        autoAlpha: 0,
+        scale: 0.5
       },{
         x: 0,
-        duration: 1.5,
-        autoAlpha: 1
-
+        scale: 1,
+        duration: 2,
+        autoAlpha: 1,
+        ease: Power1.inOut
       })
 
       gsap.from('.stagger',{
         y: -180,
         stagger:{
-          amount: 1,
+          amount: 0.8,
           grid: [3,1],
           axis: "y",
           ease: Power1.inOut
@@ -59,7 +61,7 @@
     }, []);
 
     return (
-      <nav className="flex justify-between items-center px-6 py-3 bg-white shadow-md rounded-b-2xl">
+      <nav className="flex justify-between items-center px-6 py-3 bg-white shadow-md">
         {/* Left: Logo */}
         <div id="logo" className="flex items-center space-x-2 cursor-pointer">
           <img
@@ -79,7 +81,7 @@
           </a>
 
           {/* Dropdown */}
-          <div className="stagger relative" ref={dropdownRef}>
+          <div className="stagger relative z-10" ref={dropdownRef}>
             <button
               onClick={toggleDropdown}
               className=" px-4 py-2 rounded-full bg-white border border-sky-300 text-sky-700 font-semibold shadow hover:border-sky-500 transition flex items-center space-x-2"

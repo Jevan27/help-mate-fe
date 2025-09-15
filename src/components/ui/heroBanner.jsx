@@ -59,17 +59,17 @@ export default function HeroBanner() {
   }, [index]);
 
   return (
-    <div className="relative w-full h-[80vh] overflow-hidden rounded-2xl shadow-lg">
+    <div className="relative w-full h-screen overflow-hidden shadow-lg">
       <div
         ref={slideRef}
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${slides[index].img})` }}
       >
-        <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center p-6">
+        <div className="font-nunito absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center p-6">
           <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow-lg">
             {slides[index].heading}
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 mt-3 mb-6">
+          <p className="font-inter text-lg md:text-xl text-gray-200 mt-3 mb-6">
             {slides[index].sub}
           </p>
           <Button size="lg" className="px-8 py-4 text-lg bg-sky-400 text-white font-semibold rounded-full shadow hover:bg-sky-500 transition">
