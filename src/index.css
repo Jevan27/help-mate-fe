@@ -124,3 +124,193 @@
     @apply bg-background text-foreground;
   }
 }
+
+/*DIVIDER 1*/
+.custom-shape-divider-bottom-1757992251 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1757992251 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-bottom-1757992251 .shape-fill {
+    fill: #7DD3FC;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1757992251 svg {
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1757992251 svg {
+        width: calc(100% + 1.3px);
+        height: 80px;
+    }
+}
+
+
+/*DIVIDER 2*/
+.custom-shape-divider-top-1757992653 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1757992653 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1757992653 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1757992653 svg {
+        width: calc(100% + 1.3px);
+        height: 90px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1757992653 svg {
+        width: calc(100% + 1.3px);
+        height: 60px;
+    }
+}
+
+/*DIVIDER 3*/
+.custom-shape-divider-bottom-1757992736 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1757992736 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1757992736 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1757992736 svg {
+        width: calc(100% + 1.3px);
+        height: 150px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1757992736 svg {
+        width: calc(100% + 1.3px);
+        height: 80px;
+    }
+}
+
+/*DIVIDER 4*/
+.custom-shape-divider-bottom-1757993081 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1757993081 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-bottom-1757993081 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-bottom-1757993081 svg {
+        width: calc(100% + 1.3px);
+        height: 100px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1757993081 svg {
+        width: calc(100% + 1.3px);
+        height: 80px;
+    }
+}
+
+/*DIVIDER 5*/
+.custom-shape-divider-top-1757993359 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1757993359 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 120px;
+}
+
+.custom-shape-divider-top-1757993359 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/** For tablet devices **/
+@media (min-width: 768px) and (max-width: 1023px) {
+    .custom-shape-divider-top-1757993359 svg {
+        width: calc(100% + 1.3px);
+        height: 100px;
+    }
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-1757993359 svg {
+        width: calc(100% + 1.3px);
+        height: 80px;
+    }
+}
